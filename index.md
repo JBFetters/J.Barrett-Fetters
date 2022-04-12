@@ -13,6 +13,7 @@ Over the course of CS-499 Capstone I took my first coding project, the Zoo Authe
 The Zoo Authentication system that was from Course IT-145 Fundamentals of Information Technology where we learn various roles and functions of IT professionals and basic technologies, hardware, software and systems thinking approach to sovling problems. The program was original written in Java. For the redesigned and engineered it was re-written to C++.
 
 ![Zoo Authenticaiton Pseudocode](assets/css/Pseudocode.png)
+[Zoo Authetication](https://github.com/JBFetters/ZooAuthentication)
 ```
 ### Code Review
 ```markdown

@@ -1,3 +1,4 @@
+# Jamie Barrett-Fetters
 
 ### Professional Self Assessment
 Welcome to my portfolio. I am currently at Southern New Hampshire University obtaining a bachelor's degree in Computer Science. I am aspiring to develop my skills within my current career combining software engineering and information security. Each opportunity and experience I have had has helped strenghten and clarify my future career goals within the Computer Science field. 

@@ -1,4 +1,3 @@
-# Jamie Barrett-Fetters
 
 ## INTRODUCTION
 

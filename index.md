@@ -13,26 +13,29 @@ During computer science program, I have learned how to collaborate in a team env
 
 Over the course of CS-499 Capstone I took my first coding project, the Zoo Authentication System, to create my final project. The final project addresses software design and engineering, data structures and algorithms and database. In the next sections you will see why I choses the project from the code review and how I addressed each section. The reason why I selected this for this portfolio was because it was my first coding program and throughout obtaining my degree I learned what could be done to change and improve the code. IT-253 Computer System Security taught me best practices in security planning and understand the purpose of create a Security plan for the network that defines purpose, scope, roles and responsibilities, training, access controls and managing vulnerabilities.
 
-This page will give you a glimpse into who I am, display my capstone project and experience that have shaped me. I will address Software Design and Engineering, Algorithms and Data Structures and Database. The artifacts will demonstrate the abilities I have learned in the computer science program.
-
-## SOFTWARE DESIGN, ENGIEERING, ALGORITMS, and DATA STRCTURES
-
-The Zoo Authentication System was the main focus for all three of the elements. The applications was created in the Java language for IT-145 Foundation in Application Development. For this artifact I decided to redesign the program and recode C++ language. I wanted to display my abilities to take a program that existed and recreated in a different language. While reviewing the original code I noticed how hard it was to read, due to lack of comments, how disorganized the code was and overall clean up. 
-
-While re-writing the program I learned that taking your time and working on one problem at a time to make sure each step that was taken worked correctly. For example ask the user for the user id. Testing different scenarios like correct user id or the user did not enter “exit”. Ensuring if the user inputted the wrong user id that it gave the user the X amount of attempts before the user was locked out of the system. This ensure that a threat actor cannot keep inputting an incorrect user id to attempt to discover the users password.
-
-When re-writing the program I created a more secure logon system. For example if the user inputs the incorrect user id three times it locks them out and does not request the user to input their password. If the user inputs the correct user id, but wrong password it locks the user out after three attempts. I also added a case sensitive function for the user id which takes the user id inputs whether inputted all capital letters or a combination between capitals or lower case letters the function converts it to all lower case letters.
-
-
-1. ![Zoo Authenticaiton Pseudocode](assets/css/Pseudocode.png)
-2. Flow Chart
-3. [Zoo Authentication](https://github.com/JBFetters/ZooAuthentication)
+This page will give you a glimpse into who I am, display my capstone project and experience that have shaped me. I will address Software Design and Engineering, Algorithms and Data Structures and Database on the Zoo Authentication code and what enhancements were performed. The artifacts will demonstrate the abilities I have learned in the computer science program.
 
 ### CODE REVIEW
 
-Prior to re-writing the program I conducted a code review of the old code to address all the issues that were found and what needed to be corrected or added. While preparing for the code review I analyzed the old code, create notes for the review and provided evidence of how the enhancements would better the program. I explained how the program worked and provide a demonstration of the MD5 hash. The code review made me realize how disorganized and lack of comments hindered the explanation.
+A code review is a review of your or someone else's code. You are reviewing the code to find mistakes, formatting concerns, coding style, naming scheme of variables, classes, security concerns and more. Code review practices are important as the review can identify issues with the code that may not been seen while in the development phase. 
 
-1. [Code Review](Debut 10.mov)
+Prior to starting the enhancements I conducted a review of the original Zoo Authentication code. The review provides an overview of how the system works, MD5 hashing and providing a demonstration of the MD5 hashing use a MD5 calculator, and identifying issues that need to be addressed in each of the three enhancement categories. In preparation for the code review I created notes for the review and provided evidence of how the enhancements would better the program. The code review made me realize how disorganized, lack of flow and comments hindered the explanation. 
+
+Below are the links to the Original Zoo Authentication, which was written in Java, and the code review video.
+1. [Original Zoo Authentication](zooauthentcationsystem.java)
+2. [Code Review](https://youtu.be/7cqPKgaxoDw)
+
+## SOFTWARE DESIGN, ENGIEERING and ALGORITHMS and DATA STRUCTURES
+
+The Zoo Authentication System is the main focus for all three elements. The application was created in Java language for IT-145 Foundation in Application Development. For this artifact I decided to redesign the program and recode C++ language. I wanted to display my abilities to take an existing program and rewrite the program in a different language.
+
+During design and engineering of the program I learned to taking my time and working on one problem at a time to make sure each step worked correctly. For example what steps that were required when asking the user for the user id, if the user id is correct, or the user inputted "exit" and if they exceeded three attempts to log the user out of the system. Making sure the user cannot passing the user id ensure that a threat actor cannot keep inputting an incorrect user id to attempt to discover the users password. Another change when rewriting was I added functions. For example lines 246 change string function, which is a block of code which only runs when it is called, that converts user id input from either all captial or a combination between captial or lower case letters to all lower case letters.
+
+Since C++ lanuage did not have a parasing function I had a block of code that would read the credential text file and pull the information I needed to validate user credentials. Within this block of code there are different algorithms and data structures that are used to parase out the information. Starting at line 64 the block of code I use an array to sort and find the information within the credential file. Once the information is in the array it is accessable when required to compare to the user inputes to validate their credentials.
+
+1. ![Zoo Authentication Pseudocode](/assets/css/Pseudocode.png)
+2. ![Zoo Authentication Pseudocode](/assets/css/UMLSequence.png)
+3. [Zoo Authentication](https://github.com/JBFetters/ZooAuthentication)
 
 ## DATABASES
 

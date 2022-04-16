@@ -33,8 +33,8 @@ During design and engineering of the program I learned to taking my time and wor
 
 Since C++ lanuage did not have a parasing function I had a block of code that would read the credential text file and pull the information I needed to validate user credentials. Within this block of code there are different algorithms and data structures that are used to parase out the information. Starting at line 64 the block of code I use an array to sort and find the information within the credential file. Once the information is in the array it is accessable when required to compare to the user inputes to validate their credentials.
 
-1. ![Zoo Authentication Pseudocode](/assets/css/Pseudocode.png)
-2. ![Zoo Authentication Pseudocode](/assets/css/UMLSequence.png)
+1. [Zoo Authentication Pseudocode](/assets/css/Pseudocode.png)
+2. [Zoo Authentication Pseudocode](/assets/css/UMLSequence.png)
 3. [Zoo Authentication](https://github.com/JBFetters/ZooAuthentication)
 
 ## DATABASES

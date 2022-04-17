@@ -23,7 +23,7 @@ Prior to starting the enhancements I conducted a review of the original Zoo Auth
 
 The Original Zoo Authentication Pseudocode was written part of IT-145 final project. Pseudocode provides a description of the steps that I would or could be taking in developing the program. Writing out the steps and the issues helps you lay out your path before you start coding. Below are the links to the Original Zoo Authentication, which was written in Java,code review, and original Zoo Autenticaiton Pseudocode.
 
-1. [Original Zoo Authentication](zooauthentcationsystem.java)
+1. [Original Zoo Authentication](https://github.com/JBFetters/OriginalZooAuthentication)
 2. [Code Review](https://youtu.be/7cqPKgaxoDw)
 3. Original Zoo Authentication Pseudocode
 

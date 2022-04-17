@@ -21,9 +21,15 @@ A code review is a review of your or someone else's code. You are reviewing the 
 
 Prior to starting the enhancements I conducted a review of the original Zoo Authentication code. The review provides an overview of how the system works, MD5 hashing and providing a demonstration of the MD5 hashing use a MD5 calculator, and identifying issues that need to be addressed in each of the three enhancement categories. In preparation for the code review I created notes for the review and provided evidence of how the enhancements would better the program. The code review made me realize how disorganized, lack of flow and comments hindered the explanation. 
 
-Below are the links to the Original Zoo Authentication, which was written in Java, and the code review video.
+The Original Zoo Authentication Pseudocode was written part of IT-145 final project. Pseudocode provides a description of the steps that I would or could be taking in developing the program. Writing out the steps and the issues helps you lay out your path before you start coding. Below are the links to the Original Zoo Authentication, which was written in Java,code review, and original Zoo Autenticaiton Pseudocode.
+
 1. [Original Zoo Authentication](zooauthentcationsystem.java)
 2. [Code Review](https://youtu.be/7cqPKgaxoDw)
+3. Original Zoo Authentication Pseudocode
+
+<img src="https://raw.githubusercontent.com/JBFetters/J.Barrett-Fetters/main/Pseudocode.jpg" width="480" height="312">
+
+
 
 ## SOFTWARE DESIGN, ENGIEERING and ALGORITHMS and DATA STRUCTURES
 
@@ -31,11 +37,15 @@ The Zoo Authentication System is the main focus for all three elements. The appl
 
 During design and engineering of the program I learned to taking my time and working on one problem at a time to make sure each step worked correctly. For example what steps that were required when asking the user for the user id, if the user id is correct, or the user inputted "exit" and if they exceeded three attempts to log the user out of the system. Making sure the user cannot passing the user id ensure that a threat actor cannot keep inputting an incorrect user id to attempt to discover the users password. Another change when rewriting was I added functions. For example lines 246 change string function, which is a block of code which only runs when it is called, that converts user id input from either all captial or a combination between captial or lower case letters to all lower case letters.
 
+Zoo Autetication Unified Modeling Language (UML) Sequence is a diagram how the rewritten code performs. This provides soem with a visualization design of the system.
+
 Since C++ lanuage did not have a parasing function I had a block of code that would read the credential text file and pull the information I needed to validate user credentials. Within this block of code there are different algorithms and data structures that are used to parase out the information. Starting at line 64 the block of code I use an array to sort and find the information within the credential file. Once the information is in the array it is accessable when required to compare to the user inputes to validate their credentials.
 
-1. [Zoo Authentication Pseudocode](/assets/css/Pseudocode.png)
-2. [Zoo Authentication Pseudocode](/assets/css/UMLSequence.png)
-3. [Zoo Authentication](https://github.com/JBFetters/ZooAuthentication)
+1. [Zoo Authentication](https://github.com/JBFetters/ZooAuthentication)
+2. Zoo Authentication UML Sequence
+
+<img src="https://raw.githubusercontent.com/JBFetters/J.Barrett-Fetters/main/UML%20Sequence.JPG" width="936" height="624">
+
 
 ## DATABASES
 

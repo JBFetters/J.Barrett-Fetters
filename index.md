@@ -61,5 +61,5 @@ The process for this artifact was first create the credential database and secon
 
 
 
-You can use the [editor on GitHub](https://github.com/JBFetters/JBFetters/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown //files.
-[Link](url) and ![Image](src)
+<!--You can use the [editor on GitHub](https://github.com/JBFetters/JBFetters/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown //files.-->
+
